@@ -32,7 +32,6 @@ namespace DataAccess
         public Movie Add(Movie movie)
         {
             this.movies.Add(movie);
-            this.context.SaveChanges();
 
             return movie;
         }
@@ -40,13 +39,12 @@ namespace DataAccess
         public void Update(Movie movie)
         {
             this.context.Entry<Movie>(movie).State = EntityState.Modified;
-            this.context.SaveChanges();
+            this.context.Attach(movie);
         }
 
         public void Delete(Movie movie)
         {
             this.movies.Remove(movie);
-            this.context.SaveChanges();
         }
     }
 }
