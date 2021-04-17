@@ -25,5 +25,10 @@ namespace BusinessLogic
         {
             return this.moviesRepository.GetAll();
         }
+
+        public Movie GetById(int movieId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

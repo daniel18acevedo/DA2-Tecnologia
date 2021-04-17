@@ -1,4 +1,5 @@
 
+using System;
 using System.Linq;
 using BusinessLogicInterface;
 using Microsoft.AspNetCore.Mvc;
@@ -29,7 +30,16 @@ namespace WebApi.Controllers
         [HttpGet("{id}", Name = "GetMovie")]
         public IActionResult Get([FromRoute]int id)
         {
-            return Ok();
+            try
+            {
+                var movie = this.moviesLogic.GetById(id);
+
+                return Ok(movie);
+            }
+            catch(NullReferenceException)
+            {
+                return BadRequest($"La pelicula con id {id} no existe en el sistema");
+            }            
         }
 
         //api/movies

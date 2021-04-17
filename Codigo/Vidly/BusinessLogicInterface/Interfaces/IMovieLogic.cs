@@ -8,6 +8,7 @@ namespace BusinessLogicInterface
     public interface IMovieLogic
     {
         IEnumerable<Movie> GetAll();
+        Movie GetById(int movieId);
         Movie Add(Movie movie);
     }
 }

@@ -50,6 +50,25 @@ namespace WebApi.Tests
         }
 
         [TestMethod]
+        public void Test_Get_Movie_By_Id_With_Incorrect_Id_Should_Be_Wrong()
+        {
+            int movieId = 5000;
+
+            var mock = new Mock<IMovieLogic>(MockBehavior.Strict);
+            mock.Setup(m => m.GetById(movieId)).Throws(new NullReferenceException());
+            var controller = new MovieController(mock.Object);
+
+            var result = controller.Get(movieId);
+            var response = result as ObjectResult;
+            var statusCode = response.StatusCode;
+            var body = response.Value;
+
+            mock.VerifyAll();
+            Assert.AreEqual(400, statusCode);
+            Assert.AreEqual(body, $"La pelicula con id {movieId} no existe en el sistema");
+        }
+
+        [TestMethod]
         public void TestPostMovieOk()
         {
             MovieModel movieModel = new MovieModel()
