@@ -2,7 +2,7 @@ using Domain;
 
 namespace Model.Out
 {
-    public class MovieDetailInfoModel
+    public class MovieDetailModel
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -12,7 +12,7 @@ namespace Model.Out
         public int AgeAllowed { get; set; }
         public string Image { get; set; }
 
-        public MovieDetailInfoModel(Movie movie)
+        public MovieDetailModel(Movie movie)
         {
             this.Id = movie.Id;
             this.Name = movie.Name;
@@ -27,7 +27,7 @@ namespace Model.Out
         {
             var result = false;
 
-            if(obj is MovieDetailInfoModel model)
+            if(obj is MovieDetailModel model)
             {
                 result = model.Id == this.Id;
             }

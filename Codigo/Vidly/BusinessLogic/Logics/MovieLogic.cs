@@ -16,17 +16,32 @@ namespace BusinessLogic
             this.moviesRepository = moviesRepository;
         }
 
-        public Movie Add(Movie movie)
+        public void Delete(int movieId)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Movie> GetAll()
+        public IEnumerable<Movie> GetAllFiltered()
         {
-            return this.moviesRepository.GetAll();
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Movie> GetAllFiltered(string category, int year)
+        {
+            throw new NotImplementedException();
         }
 
         public Movie GetById(int movieId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Movie Save(Movie Movie)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Update(int movieId, Movie movie)
         {
             throw new NotImplementedException();
         }

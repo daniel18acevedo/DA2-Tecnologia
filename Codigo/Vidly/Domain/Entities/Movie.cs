@@ -13,9 +13,14 @@ namespace Domain
         public string Description { get; set; }
         public int AgeAllowed { get; set; }
         public double Duration { get; set; }
+        public DateTime ReleaseDate{ get; set; }
+
+        public int DirectorId { get; set; }
+        public Director Director { get; set; }
 
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+
 
         public override bool Equals(object obj)
         {

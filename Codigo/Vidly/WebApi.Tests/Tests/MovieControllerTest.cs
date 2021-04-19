@@ -9,6 +9,7 @@ using Model.In;
 using Model.Out;
 using Moq;
 using WebApi.Controllers;
+using WebApi.QueryParams;
 
 namespace WebApi.Tests
 {
@@ -16,7 +17,7 @@ namespace WebApi.Tests
     public class MovieControllerTest
     {
         [TestMethod]
-        public void TestGetAllMoviesOk()
+        public void Test_Get_All_Movies_Filtered_With_Filtered_Category_Suspenso_And_Year_2020_ShouldBeOk()
         {
             List<Movie> moviesToReturn = new List<Movie>()
             {
@@ -26,7 +27,13 @@ namespace WebApi.Tests
                     Name = "Iron man 3",
                     Description = "I'm Iron man",
                     AgeAllowed = 16,
-                    Duration = 1.5
+                    Duration = 1.5,
+                    Category = new Category
+                    {
+                        Id = 1,
+                        Name = "Suspenso"
+                    },
+                    ReleaseDate = new DateTime(2020, 1, 1)
                 },
                 new Movie()
                 {
@@ -34,19 +41,31 @@ namespace WebApi.Tests
                     Name = "Iron man 2",
                     Description = "I'm Iron man",
                     AgeAllowed = 16,
-                    Duration = 1.5
+                    Duration = 1.5,
+                    Category = new Category
+                    {
+                        Id = 1,
+                        Name = "Suspenso"
+                    },
+                    ReleaseDate = new DateTime(2012, 1, 1)
+
                 }
             };
+            MovieQueryParam queryParams = new MovieQueryParam
+            {
+                Category = "Suspenso",
+                Year = 2020
+            };
             var mock = new Mock<IMovieLogic>(MockBehavior.Strict);
-            mock.Setup(m => m.GetAll()).Returns(moviesToReturn);
+            mock.Setup(m => m.GetAllFiltered(queryParams.Category, queryParams.Year)).Returns(moviesToReturn);
             var controller = new MovieController(mock.Object);
 
-            var result = controller.Get();
+            var result = controller.GetAllMoviesFiltered(queryParams);
             var okResult = result as OkObjectResult;
-            var movies = okResult.Value as IEnumerable<MovieBasicInfoModel>;
+            var movies = okResult.Value as IEnumerable<MovieBasicModel>;
 
             mock.VerifyAll();
-            Assert.IsTrue(moviesToReturn.Select(m => new MovieBasicInfoModel(m)).SequenceEqual(movies));
+            Assert.IsTrue(moviesToReturn.Select(m => new MovieBasicModel(m)).SequenceEqual(movies));
         }
 
         [TestMethod]
@@ -58,7 +77,7 @@ namespace WebApi.Tests
             mock.Setup(m => m.GetById(movieId)).Throws(new NullReferenceException());
             var controller = new MovieController(mock.Object);
 
-            var result = controller.Get(movieId);
+            var result = controller.GetMovieById(movieId);
             var response = result as ObjectResult;
             var statusCode = response.StatusCode;
             var body = response.Value;
@@ -92,15 +111,15 @@ namespace WebApi.Tests
                 Rank = 0
             };
             var mock = new Mock<IMovieLogic>();
-            mock.Setup(m => m.Add(It.IsAny<Movie>())).Returns(movieToReturn);
+            mock.Setup(m => m.Save(It.IsAny<Movie>())).Returns(movieToReturn);
             var controller = new MovieController(mock.Object);
 
-            var result = controller.Post(movieModel);
+            var result = controller.Create(movieModel);
             var status = result as CreatedAtRouteResult;
-            var content = status.Value as MovieDetailInfoModel;
+            var content = status.Value as MovieDetailModel;
 
             mock.VerifyAll();
-            Assert.AreEqual(content, new MovieDetailInfoModel(movieToReturn));
+            Assert.AreEqual(content, new MovieDetailModel(movieToReturn));
         }
 
         [TestMethod]
@@ -118,10 +137,42 @@ namespace WebApi.Tests
             };
 
             var mock = new Mock<IMovieLogic>(MockBehavior.Strict);
-            mock.Setup(m => m.Add(It.IsAny<Movie>())).Throws(new Exception());
+            mock.Setup(m => m.Save(It.IsAny<Movie>())).Throws(new Exception());
             var controller = new MovieController(mock.Object);
 
-            var result = controller.Post(movieModel);
+            var result = controller.Create(movieModel);
+        }
+
+        [TestMethod]
+        public void Test_Update_Name_Of_Movie_ShouldBeOk()
+        {
+            MovieModel movieModel = new MovieModel
+            {
+                Name = "Enola Holmes 2",
+            };
+            int movieId = 1;
+            var mock = new Mock<IMovieLogic>(MockBehavior.Strict);
+            mock.Setup(m => m.Update(It.IsAny<int>(), It.IsAny<Movie>()));
+            var controller = new MovieController(mock.Object);
+
+            var response = controller.Update(movieId, movieModel);
+            var statusCodeResult = response as StatusCodeResult;
+
+            Assert.AreEqual(204, statusCodeResult.StatusCode);
+        }
+
+        [TestMethod]
+        public void Test_Delete_Movie_ShouldBeOk()
+        {
+            int movieId = 1;
+            var mock = new Mock<IMovieLogic>(MockBehavior.Strict);
+            mock.Setup(m => m.Delete(movieId));
+            var controller = new MovieController(mock.Object);
+
+            var response = controller.DeleteById(movieId);
+            var statusCodeResult = response as StatusCodeResult;
+
+            Assert.AreEqual(204, statusCodeResult.StatusCode);
         }
     }
 }
