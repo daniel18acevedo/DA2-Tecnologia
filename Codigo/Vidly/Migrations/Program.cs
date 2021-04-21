@@ -6,7 +6,8 @@ namespace Migrations
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DbContext context = new VidlyContext();
+
         }
     }
 }
