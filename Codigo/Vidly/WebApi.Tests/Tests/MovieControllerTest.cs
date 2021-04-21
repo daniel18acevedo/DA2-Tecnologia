@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using BusinessLogicInterface;
@@ -10,6 +11,7 @@ using Model.Out;
 using Moq;
 using WebApi.Controllers;
 using WebApi.QueryParams;
+using FluentAssertions;
 
 namespace WebApi.Tests
 {
@@ -65,7 +67,50 @@ namespace WebApi.Tests
             var movies = okResult.Value as IEnumerable<MovieBasicModel>;
 
             mock.VerifyAll();
-            Assert.IsTrue(moviesToReturn.Select(m => new MovieBasicModel(m)).SequenceEqual(movies));
+            CollectionAssert.AreEqual(moviesToReturn.Select(movie => new MovieBasicModel(movie)).ToList(), movies.ToList(), new MovieBasicModelComparer());
+        }
+
+        [TestMethod]
+        public void Test_Get_All_Movies_Filtered_With_Filtered_Category_Suspenso_And_Year_2020_With_FluentAssertion_ShouldBeOk()
+        {
+            List<Movie> moviesToReturn = new List<Movie>()
+            {
+                new Movie()
+                {
+                    Id = 1,
+                    Name = "Iron man 3",
+                    Description = "I'm Iron man",
+                    AgeAllowed = 16,
+                    Duration = 1.5,
+                    Category = new Category
+                    {
+                        Id = 1,
+                        Name = "Suspenso"
+                    },
+                    ReleaseDate = new DateTime(2020, 1, 1)
+                }
+            };
+            MovieQueryParam queryParams = new MovieQueryParam
+            {
+                Category = "Suspenso",
+                Year = 2020
+            };
+            var mock = new Mock<IMovieLogic>(MockBehavior.Strict);
+            mock.Setup(m => m.GetAllFiltered(queryParams.Category, queryParams.Year)).Returns(moviesToReturn);
+            var controller = new MovieController(mock.Object);
+
+            var result = controller.GetAllMoviesFiltered(queryParams);
+            var okResult = result as OkObjectResult;
+            var movies = okResult.Value as IEnumerable<MovieBasicModel>;
+
+            mock.VerifyAll();
+            movies.Should().SatisfyRespectively(
+                first => 
+                {
+                    first.Id.Should().Be(1);
+                    first.Name.Should().Be("Iron man 3");
+                }
+            );
         }
 
         [TestMethod]

@@ -16,17 +16,5 @@ namespace Model.Out
             this.Image = movie.Image;
             this.Rank = movie.Rank;
         }
-
-        public override bool Equals(object obj)
-        {
-            var result = false;
-
-            if(obj is MovieBasicModel movie)
-            {
-                result = this.Id == movie.Id && this.Name.Equals(movie.Name);
-            }
-
-            return result;
-        }
     }
 }
