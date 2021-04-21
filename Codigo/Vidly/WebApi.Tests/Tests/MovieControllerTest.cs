@@ -109,6 +109,7 @@ namespace WebApi.Tests
                 {
                     first.Id.Should().Be(1);
                     first.Name.Should().Be("Iron man 3");
+                    first.Rank.Should().Be(0);
                 }
             );
         }
