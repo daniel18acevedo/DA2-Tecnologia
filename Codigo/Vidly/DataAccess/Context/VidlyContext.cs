@@ -9,12 +9,13 @@ namespace DataAccess
     {
         public DbSet<Movie> Movies { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Country> Countries { get; set; }
 
         public VidlyContext() { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            //modelBuilder.Entity<Movie>().HasMany(movie => movie.Cou)
         }
 
         public VidlyContext(DbContextOptions options) : base(options) { }

@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj",
         "projectName": "BusinessLogicInterface",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -31,9 +26,10 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj"
               }
             }
           }
@@ -46,6 +42,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -64,27 +61,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogic\\BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -95,15 +87,16 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj"
               }
             }
           }
@@ -116,6 +109,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -134,27 +128,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj",
         "projectName": "DataAccessInterface",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -165,6 +154,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -176,6 +166,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -194,27 +185,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -225,12 +211,13 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj"
               }
             }
           }
@@ -243,6 +230,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -252,6 +240,10 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -269,27 +261,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -300,6 +287,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -311,6 +299,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.DataAnnotations": {
               "target": "Package",
@@ -333,27 +322,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Factory\\Factory.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Factory\\Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Factory\\Factory.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Factory\\Factory.csproj",
         "projectName": "Factory",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Factory\\Factory.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Factory\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Factory\\Factory.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Factory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -364,18 +348,19 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -388,6 +373,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -418,27 +404,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\danie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -449,12 +430,13 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\BusinessLogicInterface\\BusinessLogicInterface.csproj"
               },
-              "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Factory\\Factory.csproj": {
-                "projectPath": "c:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\Factory\\Factory.csproj"
+              "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Factory\\Factory.csproj": {
+                "projectPath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\Factory\\Factory.csproj"
               }
             }
           }
@@ -467,6 +449,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -485,7 +468,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

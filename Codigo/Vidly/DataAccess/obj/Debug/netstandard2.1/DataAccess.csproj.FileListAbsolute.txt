@@ -1,0 +1,14 @@
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\DataAccess.deps.json
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\DataAccess.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\DataAccess.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\DataAccessInterface.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\Domain.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\Domain.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.1\DataAccessInterface.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.csprojAssemblyReference.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.csproj.CopyComplete
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.1\DataAccess.pdb

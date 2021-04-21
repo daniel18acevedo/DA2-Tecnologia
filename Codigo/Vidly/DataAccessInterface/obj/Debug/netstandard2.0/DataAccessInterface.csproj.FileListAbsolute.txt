@@ -7,3 +7,12 @@ C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccess
 C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.AssemblyInfo.cs
 C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.dll
 C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\bin\Debug\netstandard2.0\DataAccessInterface.deps.json
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\bin\Debug\netstandard2.0\DataAccessInterface.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\bin\Debug\netstandard2.0\DataAccessInterface.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.csprojAssemblyReference.cache

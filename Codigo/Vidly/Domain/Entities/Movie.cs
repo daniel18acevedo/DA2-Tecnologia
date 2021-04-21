@@ -20,5 +20,7 @@ namespace Domain
         
         public int CategoryId { get; set; }
         public Category Category { get; set; }
+
+        public IEnumerable<Country> Countries { get; set; }
     }
 }

@@ -12,3 +12,17 @@ C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccess
 C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\Daniel\Documents\GitHub\DA2-Tecnologia\Codigo\Nocturno\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\DataAccessInterface.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\bin\Debug\netstandard2.0\DataAccessInterface.pdb
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb

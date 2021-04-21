@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Wo/D702rIr0demxKCcPaAHgoc47+gw9NDqDCse1wZqTtgWhYr05g8JDhPQrCiID74jEUh86p99d45kDIoLfa5A==",
+  "dgSpecHash": "8ZKQydyvJ/88ptTcYZuasFsrusZ2Zx46TlgsDgeNhiMYcoRyNiR7CkgrDQIjPnbfAXnim4lZ5MnDNlYoMeKUXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel\\Documents\\GitHub\\DA2-Tecnologia\\Codigo\\Nocturno\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj",
+  "projectFilePath": "C:\\Users\\danie\\OneDrive\\Documentos\\GitHub\\DA2-Tecnologia\\Codigo\\Vidly\\DataAccessInterface\\DataAccessInterface.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\danie\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\danie\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
