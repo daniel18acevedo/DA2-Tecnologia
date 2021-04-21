@@ -15,4 +15,3 @@ C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccess
 C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.csproj.CoreCompileInputs.cache
 C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.dll
 C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.pdb
-C:\Users\danie\OneDrive\Documentos\GitHub\DA2-Tecnologia\Codigo\Vidly\DataAccessInterface\obj\Debug\netstandard2.0\DataAccessInterface.csprojAssemblyReference.cache
