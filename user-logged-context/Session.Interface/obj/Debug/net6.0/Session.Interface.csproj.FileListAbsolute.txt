@@ -1,0 +1,12 @@
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\bin\Debug\net6.0\Session.Interface.deps.json
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\bin\Debug\net6.0\Session.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\bin\Debug\net6.0\ref\Session.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\bin\Debug\net6.0\Session.Interface.pdb
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.csproj.AssemblyReference.cache
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.AssemblyInfoInputs.cache
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.AssemblyInfo.cs
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\ref\Session.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\Session.Interface\obj\Debug\net6.0\Session.Interface.pdb

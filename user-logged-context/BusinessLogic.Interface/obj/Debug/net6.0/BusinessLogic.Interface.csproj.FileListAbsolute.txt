@@ -1,0 +1,15 @@
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\bin\Debug\net6.0\BusinessLogic.Interface.deps.json
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\bin\Debug\net6.0\BusinessLogic.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\bin\Debug\net6.0\ref\BusinessLogic.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\bin\Debug\net6.0\BusinessLogic.Interface.pdb
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\bin\Debug\net6.0\Domain.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\bin\Debug\net6.0\Domain.pdb
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.csproj.AssemblyReference.cache
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.AssemblyInfoInputs.cache
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.AssemblyInfo.cs
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.csproj.CopyComplete
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\ref\BusinessLogic.Interface.dll
+C:\Users\Daniel Acevedo\Documents\GitHub\DA2-Tecnologia\user-logged-context\BusinessLogic.Interface\obj\Debug\net6.0\BusinessLogic.Interface.pdb
