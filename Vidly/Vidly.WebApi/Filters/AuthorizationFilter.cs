@@ -17,18 +17,11 @@ namespace Vidly.WebApi.Filters
             {
                 var sessionLogic = base.GetSessionService(context);
 
-                if (!sessionLogic.IsUserAuthenticated())
-                {
-                    context.Result = new UnauthorizedResult();
-                }
-                else
-                {
-                    var userLogged = sessionLogic.GetUserLogged();
+                var userLogged = sessionLogic.GetUserLogged();
 
-                    if (!userLogged.HasPermissions(new string[] { "get user" }))
-                    {
-                        context.Result = new UnauthorizedResult();
-                    }
+                if (!userLogged.HasPermissions(new string[] { $"{context.HttpContext.Request.Method}-{context.HttpContext.Request.Path}".ToLower() }))
+                {
+                    context.Result = new ForbidResult();
                 }
             }
         }

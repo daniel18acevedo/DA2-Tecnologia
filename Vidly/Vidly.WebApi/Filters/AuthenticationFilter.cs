@@ -13,14 +13,14 @@ namespace Vidly.WebApi.Filters
     {
         public virtual void OnAuthorization(AuthorizationFilterContext context)
         {
-            
+
             var authorizationHeader = context.HttpContext.Request.Headers["Authorization"];
 
             if (string.IsNullOrEmpty(authorizationHeader))
             {
                 context.Result = new ObjectResult(new { Message = "Authorization header is missing" })
                 {
-                    StatusCode = (int)HttpStatusCode.Forbidden
+                    StatusCode = 401
                 };
             }
             else
@@ -33,7 +33,7 @@ namespace Vidly.WebApi.Filters
                 {
                     context.Result = new ObjectResult(new { Message = "Authorization header format incorrect" })
                     {
-                        StatusCode = (int)HttpStatusCode.Forbidden
+                        StatusCode = 401
                     };
                 }
                 else
@@ -46,7 +46,7 @@ namespace Vidly.WebApi.Filters
                     {
                         context.Result = new ObjectResult(new { Message = "Authorization header invalid" })
                         {
-                            StatusCode = (int)HttpStatusCode.Forbidden
+                            StatusCode = 401
                         };
                     }
                 }
