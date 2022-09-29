@@ -4,12 +4,13 @@ using Vidly.WebApi.Models.Out;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-
+using Vidly.WebApi.Filters;
 
 namespace Vidly.WebApi.Controllers
 {
     [Route("api/movies")]
     [ApiController]
+    [AuthenticationFilter]
     public class MovieController : ControllerBase
     {
         private static List<Movie> _movies = new List<Movie>()
