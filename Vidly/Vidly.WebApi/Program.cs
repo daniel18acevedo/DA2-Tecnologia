@@ -1,3 +1,4 @@
+using Vidly.WebApi;
 using Vidly.WebApi.SessionInterface;
 using Vidly.WebApi.SessionLogic;
 
@@ -11,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddTransient<ISessionService, SessionService>();
-
+builder.Services.AddScoped<UserLogged>();
 var app = builder.Build();
 
 

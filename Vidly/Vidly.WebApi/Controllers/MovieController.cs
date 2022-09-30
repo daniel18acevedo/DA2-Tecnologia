@@ -5,27 +5,35 @@ using System.Linq;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Vidly.WebApi.Filters;
+using System.Collections.Generic;
 
 namespace Vidly.WebApi.Controllers
 {
     [Route("api/movies")]
     [ApiController]
-    [AuthenticationFilter]
+    [AuthorizationFilter]
     public class MovieController : ControllerBase
     {
+        private readonly UserLogged userLogged;
+
         private static List<Movie> _movies = new List<Movie>()
         {
             new Movie() { Id = 1, Title = "El conjuro", Description = "De terror" },
             new Movie() { Id = 2, Title = "El conjuro 2", Description = "De terror 2" }
         };
 
+        public MovieController(UserLogged userLogged)
+        {
+            this.userLogged = userLogged;
+        }
+
         // Index - Get all movies (/api/movies)
         [HttpGet]
         public IActionResult GetMovies([FromQuery] MovieSearchCriteria searchCriteria)
         {
             var filteredMovies = _movies.Where(searchCriteria.Criteria);
-            
-            return Ok(filteredMovies);
+
+            return Ok(userLogged);
         }
 
         // Show - Get specific movie (/api/movies/{id})
@@ -112,7 +120,8 @@ namespace Vidly.WebApi.Controllers
             // Workaround - como no puedo editar el elemento directamente en List, lo elimino y lo vuelvo a insertar actualizado
             var newMovie = new Movie()
             {
-                Id = movieSaved.Id, Description = updatedMovie.Description,
+                Id = movieSaved.Id,
+                Description = updatedMovie.Description,
                 Title = updatedMovie.Name
             };
 

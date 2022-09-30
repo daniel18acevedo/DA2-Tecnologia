@@ -21,7 +21,10 @@ namespace Vidly.WebApi.Filters
 
                 if (!userLogged.HasPermissions(new string[] { $"{context.HttpContext.Request.Method}-{context.HttpContext.Request.Path}".ToLower() }))
                 {
-                    context.Result = new ForbidResult();
+                    context.Result = new ObjectResult(new { Message = "Not allowed", asdas="asd" })
+                        {
+                            StatusCode = 403
+                        };;
                 }
             }
         }

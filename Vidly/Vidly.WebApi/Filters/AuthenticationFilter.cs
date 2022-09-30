@@ -13,7 +13,6 @@ namespace Vidly.WebApi.Filters
     {
         public virtual void OnAuthorization(AuthorizationFilterContext context)
         {
-
             var authorizationHeader = context.HttpContext.Request.Headers["Authorization"];
 
             if (string.IsNullOrEmpty(authorizationHeader))
