@@ -4,6 +4,7 @@
 
 - [Cuentas GitHub](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EeK8x-73p5RAmlSL_rvYRwIBJwVE9gECldhuJvqX8nSGKw?e=8q1Rct)
 - [Grupo obligatorios](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/ERVYsgSzrElNvxnwj0L3ZbkBwP8cQTkOXgUuY6DePBcNHA?e=w7F6Ws)
+- [Seguimiento de clases](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/EcJWJ347UEJGr7q9uiV4howBck_KiHapJIAkql-U0chekA?e=6g04md)
 
 ## Introducción
 
