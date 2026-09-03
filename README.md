@@ -190,6 +190,12 @@ Complementan los conceptos, presentan discusiones críticas sobre los patrones y
 
 ---
 
+### Cuentas de github
+
+En este [excel](https://fi365-my.sharepoint.com/:x:/g/personal/da185082_fi365_ort_edu_uy/IQCvzvYEBwI7R44MV2yLV9P4AVix6pkOBYijzIrCjSo5eHY?e=PPBbG0) deberian de encontrar su nombre donde deberan de agregar su usuario de github para ser agregados a la organizacion. Una vez agregados se los marcara como que si en la columna correspondiente.
+
+---
+
 > **Nota:** El código para cada tema se encuentra en su propia branch, facilitando la búsqueda y el estudio independiente de cada tópico.
 
 ## ⚠️ Aclaración Importante
