@@ -103,15 +103,15 @@ ARG ARCH
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
-    apt-get install -y curl tar git jq sudo python3 python3-pip wget apt-transport-https ca-certificates gnupg software-properties-common && \
+    apt-get install -y curl tar git jq sudo python3 python3-pip ca-certificates libicu70 && \
     apt-get clean
 
-RUN wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && \
-    dpkg -i packages-microsoft-prod.deb && \
-    rm packages-microsoft-prod.deb && \
-    apt-get update && \
-    apt-get install -y dotnet-sdk-8.0 && \
-    apt-get clean
+ENV DOTNET_ROOT=/usr/share/dotnet
+RUN curl -fsSL https://dot.net/v1/dotnet-install.sh -o dotnet-install.sh && \
+    chmod +x dotnet-install.sh && \
+    ./dotnet-install.sh --channel 10.0 --install-dir "$DOTNET_ROOT" && \
+    ln -s "$DOTNET_ROOT/dotnet" /usr/bin/dotnet && \
+    rm dotnet-install.sh
 
 RUN useradd -m runner && mkdir -p /runner && chown runner:runner /runner
 WORKDIR /runner

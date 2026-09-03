@@ -52,16 +52,17 @@ Elige el entorno de desarrollo más adecuado para tu sistema operativo:
 
 ---
 
-## ⚙️ Instalación de .NET 8
+## ⚙️ Instalación de .NET 10
 
-Para trabajar con proyectos .NET, asegúrate de instalar el **.NET 8.0 SDK**. Este kit proporciona todas las herramientas necesarias para compilar y ejecutar aplicaciones .NET.
+Para trabajar con proyectos .NET, asegúrate de instalar el **.NET 10.0 SDK**. Este kit proporciona todas las herramientas necesarias para compilar y ejecutar aplicaciones .NET.
 
-### 🔽 Pasos para instalar .NET 8.0 SDK
+### 🔽 Pasos para instalar .NET 10.0 SDK
 
-1. 🌐 Accede a la página oficial de descargas: [**.NET 8.0 SDK**](https://dotnet.microsoft.com/download) y descarga la versión adecuada para tu sistema operativo.
+1. 🌐 Accede a la página oficial de descargas: [**.NET 10.0 SDK**](https://dotnet.microsoft.com/download/dotnet/10.0) y descarga la versión adecuada para tu sistema operativo.
 2. 💾 Ejecuta el instalador descargado y sigue las instrucciones en pantalla.
 3. 🧑‍💻 Comprueba la instalación:
-   - Si usas **Visual Studio Enterprise** en Windows, deberías poder seleccionar la versión de .NET 8 al crear nuevos proyectos.
+   - Si usas **Visual Studio Enterprise** en Windows, deberías poder seleccionar la versión de .NET 10 al crear nuevos proyectos.
+     - ⚠️ Para poder **targetear `net10.0`** necesitás **Visual Studio 2026 (18.0)** o superior. Visual Studio 2022 puede tener el SDK de .NET 10 instalado, pero solo te deja targetear hasta `net9.0`. Si al crear un proyecto no te aparece .NET 10 en el desplegable de framework, actualizá Visual Studio desde el **Visual Studio Installer**.
    - Si usas **Visual Studio Code**, abre una terminal y ejecuta el comando:
      ```
      dotnet --version
