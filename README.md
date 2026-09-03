@@ -175,10 +175,10 @@ Complementan los conceptos, presentan discusiones críticas sobre los patrones y
 
 ### Primera Parte: .NET WebAPI
 
-- [Web API](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/web-api)
-- [Pruebas unitarias e integración](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/unit-testing)
-- [Inyección de dependencias](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/dependency-injection)
 - [Entity Framework Core](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/ef-core)
+- [Pruebas unitarias e integración](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/unit-testing)
+- [Web API](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/web-api)
+- [Inyección de dependencias](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/dependency-injection)
 - [Filters](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/filters)
 - [Reflection](https://github.com/daniel18acevedo/DA2-Tecnologia/tree/reflection)
 - [Deploy BE](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/main/deploy-be.md)
