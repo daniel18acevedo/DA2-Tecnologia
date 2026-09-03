@@ -23,6 +23,7 @@ Consulta la siguiente guía para hacerlo con Docker:
 4. **IMPORTANTE:**  
    - Respetar las carpetas, los nombres y extensiones de los archivos.
    - Agrega un archivo `.cs` (por ejemplo `Test.cs`). Esto hará que se ejecuten las actions al hacer commit.
+   - En los dos workflows, reemplaza el placeholder de `solution-name` por el nombre del archivo de tu solución **con la extensión incluida**. A partir de .NET 10 `dotnet new sln` genera un archivo `.slnx` (por ejemplo `Test.slnx`); el formato `.sln` clásico también sigue siendo válido y los workflows funcionan igual con ambos.
 5. Modifica el `README.md` y **agrega los badges para distinguir el estado de las ramas `main` y `develop`**:
 
    ```md
@@ -60,6 +61,7 @@ Estos archivos son esenciales para que tu repositorio siga las buenas prácticas
 - **[.gitignore](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/repo-configuration/.gitignore):** Ignora archivos no deseados en control de versiones.
 - **[.editorconfig](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/repo-configuration/.editorconfig):** Reglas de estilo y clean code para C#.
 - **[Directory.Build.props](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/repo-configuration/Directory.Build.props):** Referencias y versiones de paquetes para todos los proyectos.
+- **[Directory.Build.targets](https://github.com/IngSoft-DA2/DA2-Tecnologia/blob/repo-configuration/Directory.Build.targets):** Agrega `coverlet.collector` (cobertura de código) a los proyectos de prueba, sin que tengas que declararlo en cada `.csproj`.
 - **[pull_request_template.md](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/repo-configuration/pull_request_template.md):** Guía de información para los pull requests.
 - **[.github/workflows/build-test.yml](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/repo-configuration/.github/workflows/build-test.yml):** Compilación y pruebas automáticas.
 - **[.github/workflows/code-analysis.yml](https://github.com/daniel18acevedo/DA2-Tecnologia/blob/repo-configuration/.github/workflows/code-analysis.yml):** Análisis estático de código.

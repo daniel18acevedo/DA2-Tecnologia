@@ -1,0 +1,8 @@
+<Project>
+	<ItemGroup Condition="'@(PackageReference->AnyHaveMetadataValue('Identity','coverlet.collector'))' != 'true' and ('@(PackageReference->AnyHaveMetadataValue('Identity','MSTest'))' == 'true' or '@(PackageReference->AnyHaveMetadataValue('Identity','MSTest.TestFramework'))' == 'true' or '@(PackageReference->AnyHaveMetadataValue('Identity','MSTest.TestAdapter'))' == 'true' or '@(PackageReference->AnyHaveMetadataValue('Identity','Microsoft.NET.Test.Sdk'))' == 'true' or '@(PackageReference->AnyHaveMetadataValue('Identity','xunit'))' == 'true' or '@(PackageReference->AnyHaveMetadataValue('Identity','NUnit'))' == 'true')">
+		<PackageReference Include="coverlet.collector" Version="6.0.2">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+</Project>
