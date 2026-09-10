@@ -24,7 +24,7 @@ ls
 Ejecuta el siguiente comando, reemplazando `<<NombreDelNegocio>>` por el nombre de tu negocio o proyecto:
 
 ```bash
-dotnet new sln -n <<NombreDelNegocio>>
+dotnet new sln -n <<NombreDelNegocio>> --format sln
 ```
 
 > ℹ️ **Desglose:**  
